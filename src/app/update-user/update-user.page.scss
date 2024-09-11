@@ -13,4 +13,13 @@ ion-header, ion-toolbar {
   ion-button {
     margin-top: 20px;
   }
+  ion-avatar {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+  }
   
+  ion-avatar img {
+    border-radius: 50%;
+  }
