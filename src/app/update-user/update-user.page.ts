@@ -33,7 +33,6 @@ export class UpdateUserPage implements OnInit {
         return;
       }
   
-      // lógica backend
       alert('Formulario enviado correctamente');
     } else {
       alert('Por favor, completa todos los campos');

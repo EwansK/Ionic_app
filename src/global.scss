@@ -35,3 +35,38 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+:root {
+    --ion-background-color: #f0f8ff;
+    --ion-text-color: #333;
+    --ion-color-primary: #007bff;
+  }
+  
+  body, ion-content {
+    background-color: var(--ion-background-color);
+    color: var(--ion-text-color);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  ion-content {
+    --padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  ion-header, ion-toolbar {
+    background-color: var(--ion-color-primary);
+    color: rgb(49, 68, 153);
+  }
+  
+  ion-item, ion-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 400px;
+  }
+  
