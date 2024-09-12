@@ -1,0 +1,25 @@
+ion-header, ion-toolbar {
+    --background: #1d1b1b;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  ion-item {
+    margin-bottom: 10px;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+  ion-avatar {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+  }
+  
+  ion-avatar img {
+    border-radius: 50%;
+  }
