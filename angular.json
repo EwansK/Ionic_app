@@ -1,3 +1,4 @@
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
@@ -136,7 +137,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": false
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
